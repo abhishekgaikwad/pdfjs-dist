@@ -1546,7 +1546,7 @@ var PDFViewerApplication = {
 };
 var validateFileURL = void 0;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io', 'https://d383au3bye3rv1.cloudfront.net'];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io', 'https://d383au3bye3rv1.cloudfront.net', 'https://tophire-stage.s3.amazonaws.com'];
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
       return;
